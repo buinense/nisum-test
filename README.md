@@ -2,7 +2,7 @@
 # nisum-test
 Test para postulación cargo develop
 
-# Utilización
+## Utilización
 - No necesita script de creación de BD, lo hace automático en memoria.
 - Para entrar a swagger ingresar a la siguiente url copn el proyecto levantado: http://localhost:8081/swagger-ui/index.html
 - El patrón para las password es:
@@ -11,8 +11,9 @@ Test para postulación cargo develop
        - Una minúscula.
        - Un caracter especial.
   
-## Json (body) y endpoint
+### Json (body) y endpoint
 - http://localhost:8081/api/usuarios/registro (POST)
+  ```
   {
       "name": "Juan Rodriguez Z",
       "email": "juan.ro@rodriguez.org",
@@ -30,8 +31,9 @@ Test para postulación cargo develop
           }        
       ]
   }
+  ```
 
-  ## Información técnica
+  ### Información técnica
   - Java 17.
   - maven.
   
